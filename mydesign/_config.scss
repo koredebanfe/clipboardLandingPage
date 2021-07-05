@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ @font-face {
+     src: url("../fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+     font-family: "baijamjuree Bold";
+ }
+
+ @font-face {
+    src: url("../fonts/BaiJamjuree-Regular.ttf") format("truetype");
+    font-family: baijamjuree;
+}

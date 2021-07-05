@@ -1,0 +1,271 @@
+.clipboard__header {
+  width: 70vw;
+  margin: 3vh auto;
+  text-align: center;
+  font-family: baijamjuree;
+}
+
+.clipboard__header .logo {
+  background-image: url("../images/bg-header-desktop.png");
+}
+
+.clipboard__header h1 {
+  font-family: "baijamjuree Bold";
+  margin: 2vh 0 4vh;
+}
+
+.clipboard__header__download {
+  margin-top: 3vh;
+  margin-bottom: 10vh;
+}
+
+.clipboard__header__download .ios, .clipboard__header__download .mac {
+  background-color: #26baa4;
+  text-decoration: none;
+  color: white;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+}
+
+.clipboard__header__download .mac {
+  background-color: #6173ff;
+}
+
+@media only screen and (max-width: 760px) {
+  .clipboard__header__download a {
+    display: block;
+    width: 50vw;
+    margin: auto;
+    margin-top: 2vh;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  src: url("../fonts/BaiJamjuree-SemiBold.ttf") format("truetype");
+  font-family: "baijamjuree Bold";
+}
+
+@font-face {
+  src: url("../fonts/BaiJamjuree-Regular.ttf") format("truetype");
+  font-family: baijamjuree;
+}
+
+@media only screen and (max-width: 760px) {
+  .clipboard__track {
+    width: 50vw;
+    margin: auto;
+  }
+}
+
+.clipboard__track {
+  text-align: center;
+}
+
+.clipboard__track__category {
+  margin-top: 10vh;
+}
+
+.clipboard__track__category__items h3 {
+  margin: 4vh 0;
+}
+
+@media only screen and (min-width: 760px) {
+  .clipboard__track > div {
+    width: 50vw;
+    margin: auto;
+  }
+  .clipboard__track__category {
+    display: flex;
+    width: 80vw;
+    text-align: left;
+  }
+  .clipboard__track__category__items {
+    margin-left: 7vw;
+  }
+  .clipboard__track__category img {
+    width: 50%;
+    display: block;
+    margin-left: 0;
+    object-position: -15px;
+  }
+}
+
+.clipboard__access {
+  text-align: center;
+  width: 60vw;
+  margin: auto;
+  margin-top: 10vw;
+}
+
+.clipboard__access img {
+  margin-top: 9vw;
+}
+
+@media only screen and (max-width: 760px) {
+  .clipboard__activities {
+    text-align: center;
+    width: 60vw;
+    margin: auto;
+  }
+}
+
+.clipboard__activities img {
+  margin-top: 7vw;
+  margin-bottom: 3vw;
+}
+
+.clipboard__activities h4 {
+  margin-bottom: 3vw;
+}
+
+.clipboard__activities > div {
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3vh;
+}
+
+.clipboard__sponsors img {
+  width: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 5vh;
+}
+
+.clipboard__OS {
+  width: 50vw;
+  text-align: center;
+  margin: auto;
+}
+
+.clipboard__OS h1 {
+  margin: 5vh 0 3vh;
+}
+
+.clipboard__OS div {
+  margin-top: 5vh;
+}
+
+.clipboard__OS a {
+  background-color: #26baa4;
+  text-decoration: none;
+  color: white;
+  padding: 1vh 2vw;
+  border-radius: 20px;
+  display: block;
+  width: 40vw;
+  margin: auto;
+  margin-top: 2vh;
+}
+
+.clipboard__OS .mac {
+  background-color: #6173ff;
+}
+
+@media only screen and (min-width: 761px) {
+  .clipboard__activities__activity {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: auto;
+  }
+  .clipboard__activities__activity div {
+    width: 30%;
+  }
+  .clipboard__sponsors {
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+    margin: 14vh auto;
+  }
+  .clipboard__OS p {
+    width: 50vw;
+    margin: auto;
+  }
+  .clipboard__OS div {
+    margin-top: 8vh;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .clipboard__OS div a {
+    width: 40%;
+  }
+}
+
+.footer {
+  text-align: center;
+  margin-top: 10vw;
+  background-color: #fcfcfc;
+  padding-top: 6vh;
+}
+
+.footer > img {
+  height: 30px;
+  margin-bottom: 3vh;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer a:hover {
+  color: #6173ff;
+}
+
+.footer__links a {
+  display: block;
+  margin-bottom: 3vh;
+}
+
+@media only screen and (min-width: 760px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__links {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+  }
+  .footer__links a {
+    text-align: left;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #3e52a3;
+}
+
+p, a {
+  font-family: baijamjuree;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "baijamjuree Bold";
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+}
+/*# sourceMappingURL=styles.css.map */
